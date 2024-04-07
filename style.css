@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     box-sizing: border-box; /* boarder counts towards width */
+    border: solid;
+    border-color: red;
 }
 
 header
@@ -92,22 +94,76 @@ header
 }
 
 
+/* quote styling */
 #quote-box
 {
     background-color: #E5E7EB;
     height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.quote-wrapper
+{
+    width: 50vw;
+}
+
+.credit
+{
+    text-align: right;
+
+}
+
+/* link section styling*/
 #link-section
 {
     background-color: #3882F6;
     height: 35vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
+
+.call-to-action
+{
+    background-color: green;
+    height: 60%;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action-text-wrapper
+{
+    width: 60%;
+}
+
+.action-text
+{
+
+}
+
+.call-to-action button
+{
+    background-color: purple;
+    border: none;
+    height: 20%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
 
 #footer
 {
     background-color: #1F2937;
     height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
