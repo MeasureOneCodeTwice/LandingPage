@@ -1,41 +1,101 @@
 * {
     margin: 0px;
     box-sizing: border-box; /* boarder counts towards width */
-    border: solid;
-    border-color: red;
+}
+
+#hero
+{
+    background-color; #1F2937;
 }
 
 header
 {
     height: 20%;
-    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
 
+header .link-wrapper
+{
+    display: flex;
 }
 
 /* Hero styling */
 #hero
-{
+{   
     background-color: #1F2937;
     height: 60vh;
+}
+
+#hero-content
+{
+    margin: 0 10vw;
+    padding: 0 0 5vh;
+    border: dotted;
+    border-color: blue;
+    height: 100%;
+}
+
+header .name-and-logo 
+{
+    display: flex;
+    align-items: center;
+
+}
+header .name-and-logo .logo
+{
+    height: 100%;
+    width: auto;
+}
+
+header .link-wrapper
+{
+    display: flex;
+    align-items: center;
+}
+
+header .link-wrapper p
+{
+    padding: 0 2vw;
+
 }
 
 #website-goal-container
 {
     height: 80%;
-    background-color: red;
     display: flex; 
     justify-content: center; 
     align-items: center;
 }
 
+
+#website-goal-container .text
+{
+    color: blue;
+    flex: 1;
+}
+
+#website-goal-container .image
+{
+    flex: 1;
+    height: 90%;
+
+}
+
+#website-goal-container .image img
+{
+    height: 100%;
+    width: auto;
+    border-radius: 40px;
+
+}
 #website-goal
 {
     background-color: green;
     width: 70vw;
     height: 80%;
 }
-
-
 
 /* image section styling */
 #image-section
