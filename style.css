@@ -2,6 +2,7 @@
     margin: 0px;
     box-sizing: border-box; /* boarder counts towards width */
     font: Roboto;
+    font-size: 1.3vw;
 }
 
 /* header styling start */
@@ -38,7 +39,7 @@ header .name-and-logo img
 header .name-and-logo p
 {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 2vw;
 
 }
 
@@ -79,11 +80,15 @@ header .link-wrapper p
 }
 
 
+#website-goal-container .text .content
+{
+    font-size: 1.2vw;
+}
 #website-goal-container .text .title
 {
     flex: 1;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 4vw;
 }
 
 #website-goal-container .text button
@@ -92,6 +97,7 @@ header .link-wrapper p
     background-color: #3882F6;
     border-color: #1F2937;
     padding: 0.6vh;
+    margin: 1vh 0 0 0;
     border-radius: 1vh;
 
 }
@@ -136,13 +142,14 @@ header .link-wrapper p
     justify-content: center; 
     align-items: center;
 
-    font-size: 35px;
+    font-size: 3vw;
 
 }
 
 #image-section .title .title-text
 {
     margin: 2% 0;
+    font-size: 3vw;
 }
 
 .card-wrapper
@@ -183,6 +190,7 @@ header .link-wrapper p
     text-align: justify;
     max-height: 30vw;
     overflow: auto;
+    font-size: 0.9vw;
 }
 
 
@@ -197,11 +205,11 @@ header .link-wrapper p
     align-items: center;
 }
 
-.quote-wrapper
+.quote-wrapper p
 {
     width: 50vw;
     color: #1F2937;
-    font-size: 36px;
+    font-size: 2vw;
 }
 
 .credit
@@ -250,7 +258,7 @@ header .link-wrapper p
 
 .action-text .title
 {
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 
@@ -260,11 +268,10 @@ header .link-wrapper p
     border: solid;
     color: #FCFBF4;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 1.2vw;
     border-color: #FCFBF4;
     border-radius: 1vh;
 
-    height: 30%;
     padding-left: 2vw;
     padding-right: 2vw;
     margin-left: 2%;
