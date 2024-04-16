@@ -102,14 +102,15 @@ header .link-wrapper p
     height: 90%;
     display: flex;
     justify-content: flex-end;
-
 }
 
 #website-goal-container .image img
 {
     height: 100%;
     width: auto;
-    border-radius: 40px;
+    max-width: 45vw; 
+    object-fit: contain;
+    border-radius: 3vh 3vw;
 
 }
 #website-goal
@@ -180,7 +181,7 @@ header .link-wrapper p
 .card-text
 {
     text-align: justify;
-    max-height: 30vh;
+    max-height: 30vw;
     overflow: auto;
 }
 
@@ -230,6 +231,7 @@ header .link-wrapper p
 
     display: flex;
     align-items: center;
+    padding: 0 3%;
 
 }
 
@@ -243,7 +245,6 @@ header .link-wrapper p
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 0 0 0 5%; 
 }
 
 
@@ -259,13 +260,14 @@ header .link-wrapper p
     border: solid;
     color: #FCFBF4;
     font-weight: 900;
+    font-size: 16px;
     border-color: #FCFBF4;
     border-radius: 1vh;
 
     height: 30%;
     padding-left: 2vw;
     padding-right: 2vw;
-    margin: 0 1vw;
+    margin-left: 2%;
 }
 
 
